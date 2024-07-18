@@ -1,5 +1,5 @@
 {% set name = "redo" %}
-{% set version = "2.0.4" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 81066955041c853b0e6491eb65a0877dce45131c4cfa3d42d923fc2aa8f7a043
+  sha256: 52a14200004d6708924a547b31b7d1c717cb36b944f3a5c7b176e0d61ab81eef
 
 
 build:
